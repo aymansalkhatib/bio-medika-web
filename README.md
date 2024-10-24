@@ -41,7 +41,7 @@ The Bio Medika Web 🌐 is a powerful, intuitive platform crafted specifically f
    git clone https://github.com/Ayman-Al-Khatib/bio-medika-web.git
 2. Navigate into the project directory:
    ```sh
-   cd bio-medika-we
+   cd bio-medika-web
 3. Install the dependencies:
    ```sh
    flutter pub get
