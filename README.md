@@ -38,7 +38,7 @@ The Bio Medika Web 🌐 is a powerful, intuitive platform crafted specifically f
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Ayman-Al-Khatib/bio-medika-we.git
+   git clone https://github.com/Ayman-Al-Khatib/bio-medika-web.git
 2. Navigate into the project directory:
    ```sh
    cd bio-medika-we
