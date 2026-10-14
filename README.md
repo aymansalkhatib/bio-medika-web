@@ -29,7 +29,7 @@ Bio Medika connects pharmacies with a drug warehouse. This repository holds the 
 - **Category management.** Create, edit and delete categories, each with an English name, an Arabic name and an image. Deleting a category asks for confirmation first, and the category list can be searched.
 - **Order processing.** All orders appear in one table with the pharmacist's name, pharmacy, phone number, city, landmark, total price, order date, payment status, order status and number of medicines. Opening an order lists every medicine with its quantity, discount, price and final price. Staff mark an order as shipped, delivered, cancelled or paid, the table updates in place, and the pharmacist sees the change in the mobile app.
 - **Search, filters and sorting.**
-  - Medicines are searched by English or Arabic commercial or scientific name. Arabic search treats the letters أ, إ and آ as ا, so spelling variants still match.
+  - Medicines are searched by English or Arabic commercial or scientific name. Arabic search treats the hamza and madda forms of the letter alef as a plain alef, so common spelling variants still match.
   - Orders are searched by pharmacist or pharmacy name.
   - Both lists accept date queries: `2024-01-01><2024-03-31` matches dates inside the range, `2024-01-01>` matches dates after the given day and `2024-01-01<` matches dates before it. Medicines are matched on their expiry date and orders on their order date.
   - Medicines sort by expiry date, price, daily-offer discount or quantity. Orders filter by status (pending, shipped, delivered or cancelled) or payment (paid or unpaid) and sort by number of medicines, price or date.
